@@ -1,7 +1,7 @@
-var express = require('express')
-var app = express()
-require('dotenv').config()
-console.log(process.env)
+const express = require('express')
+const app = express()
+const pgqueries = require("./controllers/pgqueries")
+
 
 app.get('/', function (req, res) {
     res.send('hello world')

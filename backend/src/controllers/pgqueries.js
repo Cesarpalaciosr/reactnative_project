@@ -5,3 +5,7 @@ pool.query('SELECT * from tabla', (err, res) => {
     //pool.end()
   })
   
+
+  module.exports = {
+    
+  }
